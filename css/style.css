@@ -20,15 +20,12 @@ body{
     width: 100%;   
     position: fixed;
     padding: 8px 60px;
+    padding-right: 10px;
 }
 .navbar img{
-    width: 100px;
+    width: 30%;
 }
-@media screen and (max-width:1000px) {
-    .navbar img{
-        width: 50px;
-    }   
-}
+
 .navbar li{
     color: #595959b7;
     margin: 0px 10px;
@@ -37,7 +34,7 @@ body{
 }
 
 .main{
-    width: 100%;    height: 100vh;
+    width: 100%;    height: 600px;
     background-image: url('../images/drew-coffman-1872.jpg');
     background-size: 100% 100%;
     overflow: hidden;
