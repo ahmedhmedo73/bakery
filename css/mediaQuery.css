@@ -1,0 +1,30 @@
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+    .main .container{
+        font-size: 20px;
+    }
+    .main .container a{
+        font-size: 12px;
+    }
+    
+}
+  
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+    .main .container{
+        font-size: 22px;
+    }
+    .main .container a{
+        font-size: 14px;
+    }
+}
+  
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+    .main .container{
+        font-size: 24px;
+    }
+    .main .container a{
+        font-size: 16px;
+    }
+}

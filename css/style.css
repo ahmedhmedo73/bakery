@@ -19,7 +19,7 @@ body{
 .navbar{
     width: 100%;   
     position: fixed;
-    padding: 8px 60px;
+    padding: 8px 20px;
     padding-right: 10px;
 }
 .navbar-brand{
@@ -40,14 +40,14 @@ body{
     width: 100%;    height: 600px;
     background-image: url('../images/drew-coffman-1872.jpg');
     background-size: 100% 100%;
-    overflow: hidden;
+    background-position: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
 }
 .main .container{
-    width: 60%;
     color: white;
     text-align: center;
-    margin: auto;
-    margin-top: 300px;
     font-size: 26px;
 }
 .main .container a{
@@ -69,22 +69,22 @@ body{
 }
 .who{
     padding: 60px;
-    overflow: hidden;
+    display: grid;
+    width: 100%;
 }
-.who .image,.who .dis{
-    float: left;
+.who .image{
+    grid-column: 1/2;
+    
 }
 .who .dis{
-    width: 45%;
+    grid-column: 2/3;
+    
     margin-top: 20px;
     padding-left: 60px;  
 }
 .who .dis p{
     line-height: 40px;
     color: #686868;
-}
-.who .image{
-    width: 49%; 
 }
 .who .image img{
     width: 100%;
