@@ -6,7 +6,26 @@
     .main .container a{
         font-size: 12px;
     }
-    
+    .who .dis{
+        grid-column: 1;
+    }
+    .who ,.location{
+        padding: 20px;
+        row-gap: 20px;
+        align-items: center;
+    }
+    .location .right{
+        grid-column: 1/2;
+    }
+    .baking .bake{
+        grid-column: 1/2;
+    }
+    .footer p{
+        font-size: 12px;
+    }
+    .footer h2{
+        font-size: 16px;
+    }
 }
   
 /* Media Query for low resolution  Tablets, Ipads */
@@ -17,6 +36,28 @@
     .main .container a{
         font-size: 14px;
     }
+    
+    .who .dis{
+        grid-column: 1;
+    }
+    .who ,.location{
+        padding: 20px;
+        row-gap: 20px;
+        align-items: center;
+    }
+    .location .right{
+        grid-column: 1/2;
+    }
+    .baking .bake{
+        grid-column: 1;
+        margin-left: 3%;
+    }
+    .footer p{
+        font-size: 10px;
+    }
+    .footer h2{
+        font-size: 16px;
+    }
 }
   
 /* Media Query for Tablets Ipads portrait mode */
@@ -26,5 +67,11 @@
     }
     .main .container a{
         font-size: 16px;
+    }
+    .footer p{
+        font-size: 16px;
+    }
+    .footer h2{
+        font-size: 18px;
     }
 }

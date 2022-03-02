@@ -74,16 +74,13 @@ body{
 }
 .who .image{
     grid-column: 1/2;
-    
 }
 .who .dis{
     grid-column: 2/3;
-    
-    margin-top: 20px;
     padding-left: 60px;  
 }
 .who .dis p{
-    line-height: 40px;
+    line-height: 30px;
     color: #686868;
 }
 .who .image img{
@@ -95,53 +92,51 @@ body{
 .who .dis .line i{
     margin-right: 10px;
     border: 1px solid rgba(128, 128, 128, 0.425);
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
-    padding: 10px;
-    font-size: 25px;
+    padding: 7px;
     color: #8e7754;
 }
 .location{
-    background-color: #f8f8f8;
-    overflow: hidden;
-    padding: 50px;
+    background-color: #e6e6e680;
+    display: grid;
+    padding: 60px;
 }
 .location .left,.location .right{
-    float: left;
-    width: 50%;
+    grid-column: 2/3;
 }
 .location .right img{
     width: 100%;
 }
 .location .left{
-    width: 45%;
-    padding-right: 50px;
-    padding-top: 70px;
+    grid-column: 1/2;
 }
 .location .left p{
     line-height: 30px;
     color: #686868;;
 }
 .baking{
-    overflow: hidden;
     width: 90%;
     margin: auto;
+    margin-top: 50px;
+    display: grid;
+    column-gap: 20px;
 }
 .baking .up{
     text-align: center;
-    width: 100%;
+    grid-column: 1/4;
 }
 .baking .up p{
     color: #888;
 }
 .baking .bake{
-    width: 30%;
-    float: left;
     margin-top: 40px;
     text-align: center;
-    margin-right: 60px;
 }
 .baking .bake img{
     width: 100%;
+    height: 300px;
 }
 .baking .bake h2{
     color: #303030;
@@ -173,17 +168,26 @@ body{
     color: #888;
 }
 .footer{
-    padding:50px;
+    padding:5%;
     background-color: #353330;
     color:white;
-    display: flex;
+    display: grid;
+    column-gap: 20px;
 }
 .footer p{
     color: #969696;
 }
-.one,.two,.three,.four{
-    width: 20%;
-    padding-right: 60px;
+.one{
+    grid-column: 1/2;
+}
+.two{
+    grid-column: 2/3;
+}
+.three{
+    grid-column: 3/4;
+}
+.four{
+    grid-column: 4/5;
 }
 .footer .one p{
     line-height: 30px;
