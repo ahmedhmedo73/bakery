@@ -147,11 +147,13 @@ body{
 .contact{
     background-color: #f8f8f8;
     padding: 50px;
-    overflow: hidden;
+    display: grid;
 }
 .contact .left, .contact .right{
-    width: 50%;
-    float: left;
+    grid-column: 1/2;
+}
+.contact .right{
+    grid-column: 2/3; 
 }
 .contact .left .line i , .contact .left .line p{
     display: inline-block;

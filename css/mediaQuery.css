@@ -9,7 +9,7 @@
     .who .dis{
         grid-column: 1;
     }
-    .who ,.location{
+    .who ,.location,.contact{
         padding: 20px;
         row-gap: 20px;
         align-items: center;
@@ -40,7 +40,7 @@
     .who .dis{
         grid-column: 1;
     }
-    .who ,.location{
+    .who ,.location,.contact{
         padding: 20px;
         row-gap: 20px;
         align-items: center;
