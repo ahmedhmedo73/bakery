@@ -17,30 +17,22 @@ body{
     color: #0275d8;
 }
 .navbar{
-    width: 100%;   position: fixed;
-    background-color: white;
+    width: 100%;   
+    position: fixed;
     padding: 8px 60px;
 }
 .navbar img{
-    height: 48px;
-    float: left;
-}
-.navbar .Ul{
-    float: right;
-    margin-right: 120px;
+    width: 100px;
 }
 .navbar li{
-    list-style: none;   
-    float: left;
-    color: #59595941;
-    margin: 0px 20px;
+    color: #595959b7;
+    margin: 0px 10px;
     font-size: 18px;
+    cursor: pointer;
 }
-.navbar ul a{
-    text-decoration: none;
-}
+
 .main{
-    width: 100%;    height: 800px;
+    width: 100%;    height: 100vh;
     background-image: url('../images/drew-coffman-1872.jpg');
     background-size: 100% 100%;
     overflow: hidden;
@@ -59,7 +51,7 @@ body{
     padding: 15px 28px;
     border: 2px solid white;   border-radius: 5px;
     font-size: 18px;
-    transition: color .5s, background-color .5s;
+    transition: color .5s, background-color .5s ,border .5s;
 }
 .main .container .left{
     background-color: #8e7754;
@@ -68,6 +60,7 @@ body{
 .main .container a:hover{
     color: #303030;
     background-color: white;
+    border: 2px solid white;
 }
 .who{
     padding: 60px;
