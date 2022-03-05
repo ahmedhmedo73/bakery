@@ -26,6 +26,9 @@
     .footer h2{
         font-size: 16px;
     }
+    .contact .right{
+        grid-column: 1; 
+    }
 }
   
 /* Media Query for low resolution  Tablets, Ipads */
@@ -57,6 +60,9 @@
     }
     .footer h2{
         font-size: 16px;
+    }
+    .contact .right{
+        grid-column: 1; 
     }
 }
   
